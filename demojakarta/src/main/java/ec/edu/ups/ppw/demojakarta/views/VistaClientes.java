@@ -66,5 +66,10 @@ public class VistaClientes {
 			
 	}
 	
+	public String regresar() {
+		System.out.println("Regresando");
+		return "contactos?faces-redirect=true" ;
+	}
+	
 	
 }
